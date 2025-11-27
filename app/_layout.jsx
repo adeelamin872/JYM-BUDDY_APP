@@ -7,6 +7,9 @@ export default function _layout() {
     <Stack
       screenOptions={{
         headerShown: false,
+        animation: 'none' ,
+        gestureEnabled: false,
+        contentStyle: { backgroundColor: '#18181b' },
       }}
     >
       {/* <Stack.Screen name='exercises' options={{
